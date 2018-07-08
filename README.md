@@ -1,3 +1,5 @@
 ## Currently implemented:
 
 - Quicksort
+
+- Factorial

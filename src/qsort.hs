@@ -1,6 +1,7 @@
--- Quicksort, first-element partitioning.
+-- First-element partitioning.
 
-qsort[]     = []
+qsort :: (Ord a) => [a] -> [a]
+qsort[] = []
 qsort(x:xs) = qsort smaller ++ [x] ++ qsort larger
               where
                 smaller = [a | a <- xs, a <= x]
