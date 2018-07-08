@@ -2,4 +2,6 @@
 
 - Quicksort
 
-- Factorial
+- Nth Factorial
+
+- Nth Fibonacci 
